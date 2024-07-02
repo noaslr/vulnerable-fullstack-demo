@@ -9,6 +9,22 @@ This project is designed for educational purposes to help security researchers p
 docker-compose up --build
 ```
 
+Building the backend:
+
+```bash
+cd backend
+docker build -t vulnerable-backend .
+docker run -p 5000:5000 vulnerable-backend
+```
+
+Building the frontend:
+
+```bash
+cd frontend
+docker build -t vulnerable-frontend .
+docker run -p 3000:3000 vulnerable-frontend
+```
+
 # Vulnerabilities
 
 ## Backend
