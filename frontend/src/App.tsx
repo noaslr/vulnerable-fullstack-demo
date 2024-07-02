@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Login from './components/Login';
-import UserList from './components/UserList';
-import UserDetails from './components/UserDetails';
-import Echo from './components/Echo';
+import Login from './Components/Login';
+import UserList from './Components/UserList';
+import UserDetails from './Components/UserDetails';
+import Echo from './Components/Echo';
 
 const App: React.FC = () => {
   return (
